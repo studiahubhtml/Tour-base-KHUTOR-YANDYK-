@@ -1,0 +1,255 @@
+/* .tour-button:hover {
+  background-color: #0266AF;
+  ;
+} */
+@font-face {
+  font-family: "Muller-Trial-Medium";
+  src:
+    local("Muller-Trial-Medium"),
+    url("./static/fonts/Muller-Trial-Medium.woff") format("woff"),
+    url("./static/fonts/Muller-Trial-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Muller-Trial-Regular";
+  src:
+    local("Muller-Trial-Regular"),
+    url("./static/fonts/Muller-Trial-Regular.woff") format("woff"),
+    url("./static/fonts/Muller-Trial-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Leotaro-Regular";
+  src:
+    local("Leotaro-Regular"),
+    url("./static/fonts/Leotaro-Regular.woff") format("woff"),
+    url("./static/fonts/Leotaro-Regular.woff2") format("woff2");
+}
+body{
+  background-color: #FFF8EE;
+  color: #000;
+  width: 1200px;
+  margin: auto;
+  font-family: "Muller-Trial-Regular"
+}
+
+a{
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.section-1{
+ padding-right: 365px;
+ text-decoration: none;
+}
+
+
+/* a {
+  text-decoration: none;
+  color: #131313;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 85px;
+}
+.header__list{
+  display: flex;
+  gap: 15px;
+}
+.header__logo{
+  height: 85px;
+  width: 128px;
+}
+.adres {
+display:block;
+width: 236px;
+}
+.fgs {
+  display:flex;
+  width: 222px;
+  gap: 15px;
+}
+.fgs img {
+
+  height: 16px;
+  width: 16px;
+}
+.rt{
+  display: block;
+}
+.header_12{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}  */
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #FFF8EE;
+  height: 437px;
+}
+
+.hero-section {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.image-gallery {
+  flex: 1;
+}
+
+.image-gallery img {
+  max-width: 100%;
+  height: auto;
+}
+/* туры */
+
+
+
+.container2 {
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+h1 {
+  font-family:"Leotaro-Regular" ;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 38px;
+}
+
+.tour-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour-button {
+  background-color: #589D34;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 48%;
+  cursor: pointer;
+}
+.tour-but {
+background-color: #D0D0D0;
+color: #000;
+
+}
+.tour-button h2 {
+  margin: auto;
+  margin-top: 0;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+
+/* туры летние */
+.container3 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+
+}
+.tour-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* отзывы */
+.container4 {
+display: block;
+text-align: center;
+font-family: "Leotaro-Regular";
+margin: 0 auto;
+padding-bottom: 57px;
+}
+.container4 h2 {
+  font-size: 38px;
+}
+
+.review-cards{
+  gap: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1035px;
+  margin-left: 85px;
+}
+.review-card {
+  text-align: center;
+  width: 500px;
+  height: 325px;
+}
+.container5{
+  margin-bottom: 171px;
+}
+
+/* шапка */
+
+.container6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  background-color: #FFF8EE;
+  padding: 10px;
+  text-align: center;
+ 
+}
+
+.section h2 {
+  margin-top: 0;
+  font-size: 10px;
+  color: #D0D0D0;
+  font-family: "Muller-Trial-Regular";
+}
+
+.container7{
+  text-align: center;
+  font-family:"Muller-Trial-Regular" ;
+  color: #D0D0D0;
+  font-size: 10px;
+  padding-bottom: 60px;
+}
